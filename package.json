@@ -1,0 +1,25 @@
+{
+    "name": "World-cup-test",
+    "version": "0.0.2",
+    "main": "index.js",
+    "description": "World cup stream from gnip",
+    "licenses": [{ "type": "MIT" }],
+    "author": {
+      "name": "Andrew W. Hill, CartoDB",
+      "email": "andrew@cartodb.com"
+    },
+    "engines": {
+        "node": "0.10.x"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express": "4.x.x",
+        "xml2js": "0.4.x",
+        "http":"0.0.x",
+        "requestify":"0.1.x",
+        "step": "0.0.4",
+        "gnip": "*"
+    }
+}
